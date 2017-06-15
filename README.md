@@ -1,5 +1,5 @@
 # SpringSecurity_Rest_Plus
-This is the Plus version of SpringSecurity_Rest
+# This is the Plus version of SpringSecurity_Rest
 
 In the Authentication part from request, it's need HTTP Basic authentication
 
@@ -15,8 +15,14 @@ For example, if the user agent uses 'Aladdin' as the username and 'open sesame' 
 
 Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
 
-In the ProductService.JAVA
+# In the ProductService.JAVA
 
-inject the head value of authentication 
+inject the head value of authentication ,and the http header , you can check the cookie from request
 
 then print the authentication info when used in GET method
+
+# How to Use
+Eclipse import as maven project, then run maven clean ,maven install,run on server.
+
+Problems may happens
+https://stackoverflow.com/questions/6210757/java-lang-classnotfoundexception-org-springframework-web-context-contextloaderl
