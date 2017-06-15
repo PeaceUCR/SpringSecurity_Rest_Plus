@@ -1,0 +1,4 @@
+springsecure\Product.class
+springsecure\ProductService.class
+springsecure\SecurityExceptionMapper.class
+springsecure\ProductServiceImpl.class
